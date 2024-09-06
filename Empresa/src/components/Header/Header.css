@@ -1,0 +1,40 @@
+#myHeader{
+    background-color: #4f46e5;
+    width: 100vw;
+    margin: 0;
+    color: #f5f5f5;
+}
+
+#headerBttn {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #ef4444;
+    color: #f5f5f5;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    padding: 0.5em;
+    }
+button:hover {
+    border-color: #646cff;
+}
+button:focus,
+    button:focus-visible {
+        outline: 4px auto -webkit-focus-ring-color;
+}
+
+#HeaderSpace{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 48rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#HeaderTxt{
+    font-size: 2.6em;
+    line-height: 1.1;
+}
